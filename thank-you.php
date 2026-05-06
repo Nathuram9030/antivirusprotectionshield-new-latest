@@ -1,10 +1,13 @@
 <?php
 /* ─── SITE CONFIG ────────────────────────────────────────── */
-$brand       = 'SolventTech';
-$phone       = '+1 (866) 483 4006';
-$phone_link  = 'tel:+18664834006';
-$org_name    = 'Solvent Technology LLC';
-$org_address = '100 1st St Apt 121, Rockville, MD 20851';
+$brand        = 'Antivirus Protection Shield';
+$phone        = '+1 (866) 483-4006';
+$phone_link   = 'tel:+18664834006';
+$org_name     = 'OPTIMUM SOLUTION LLC';
+$org_address  = '15100 Liberty Grove Drive, Burtonsville, MD 20866, United States';
+$contact_name = 'Joseph Vaz';
+$email        = 'support@antivirusprotectionshield.com';
+$website      = 'https://antivirusprotectionshield.com';
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -14,7 +17,7 @@ $org_address = '100 1st St Apt 121, Rockville, MD 20851';
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Thank You — <?= $brand ?></title>
     <meta name="robots" content="noindex, nofollow">
-    <link rel="icon" type="image/png" href="https://solventtech.com/favicon.png">
+    <link rel="icon" type="image/png" href="https://antivirusprotectionshield.com/favicon.png">
 
     <script>
         (function(w, d, s, l, i) {
@@ -560,7 +563,7 @@ $org_address = '100 1st St Apt 121, Rockville, MD 20851';
     <nav class="site-nav" id="site-nav" role="navigation" aria-label="Main navigation">
         <div class="nav-inner">
             <a href="index.php" class="nav-brand" aria-label="<?= $brand ?> Home">
-                Solvent<span>Tech</span>
+                Antivirus<span>Protection Shield</span>
             </a>
             <div class="nav-links" role="menubar">
                 <a href="index.php#about" role="menuitem">About</a>
@@ -634,8 +637,8 @@ $org_address = '100 1st St Apt 121, Rockville, MD 20851';
 
     <footer>
         <div class="container">
-            <p>&copy; <?= date('Y') ?> <strong><?= $brand ?></strong> &mdash; A service of <?= $org_name ?></p>
-            <p style="margin-top:4px;"><?= $org_address ?> &bull; <a href="<?= $phone_link ?>"><?= $phone ?></a></p>
+            <p>&copy; <?= date('Y') ?> <strong><?= $brand ?></strong> &mdash; <?= $org_name ?></p>
+            <p style="margin-top:4px;"><?= $org_address ?> &bull; <a href="<?= $phone_link ?>"><?= $phone ?></a> &bull; <a href="mailto:<?= $email ?>"><?= $email ?></a></p>
             <p style="margin-top:8px;">
                 <a href="privacy.php">Privacy Policy</a> &bull;
                 <a href="terms.php">Terms of Service</a>

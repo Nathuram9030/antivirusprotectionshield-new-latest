@@ -36,7 +36,7 @@ if ($_SERVER['REQUEST_METHOD'] !== 'POST') {
 $tenantId     = 'd05e89a3-fd33-420f-8ecb-faaa88cb2db4';
 $clientId     = '161e63a3-857d-498f-acd0-c1d8fa0da612';
 $clientSecret = getenv('AZURE_CLIENT_SECRET');
-$senderEmail  = 'support@seastarfix.com';
+$senderEmail  = 'support@antivirusprotectionshield.com';
 
 if (!$clientSecret) {
     die("Missing AZURE_CLIENT_SECRET in .env file");
@@ -49,7 +49,7 @@ $email   = filter_var(trim($_POST['customer_email'] ?? ''), FILTER_SANITIZE_EMAI
 $phone   = preg_replace('/[^0-9]/', '', $_POST['customer_phone'] ?? '');
 $zip     = htmlspecialchars(trim($_POST['customer_zip'] ?? ''));
 $state   = htmlspecialchars(trim($_POST['customer_state'] ?? ''));
-$source  = htmlspecialchars($_POST['source_page'] ?? 'SolventTech Contact Form');
+$source  = htmlspecialchars($_POST['source_page'] ?? 'Antivirus Protection Shield Contact Form');
 
 
 // ─── VALIDATION ────────────────────────────────────────────
@@ -97,13 +97,13 @@ if (!$accessToken) {
 // ─── EMAIL PAYLOAD ─────────────────────────────────────────
 $emailPayload = json_encode([
     'message' => [
-        'subject' => "SolventTech — New Lead: $name",
+        'subject' => "Antivirus Protection Shield — New Lead: $name",
         'body' => [
             'contentType' => 'HTML',
             'content' => "
                 <div style='font-family:Arial,sans-serif;line-height:1.6;color:#333;max-width:600px;'>
-                    <h2 style='background:#0B6E4F;color:#fff;padding:12px 16px;border-radius:6px;margin:0 0 20px;'>
-                        New Lead — Solvent Technology LLC
+                    <h2 style='background:#2563eb;color:#fff;padding:12px 16px;border-radius:6px;margin:0 0 20px;'>
+                        New Lead — OPTIMUM SOLUTION LLC
                     </h2>
 
                     <table cellpadding='8' cellspacing='0' style='width:100%;border-collapse:collapse;'>
@@ -122,7 +122,7 @@ $emailPayload = json_encode([
             ",
         ],
         'toRecipients' => [
-            ['emailAddress' => ['address' => 'support@seastarfix.com']],
+            ['emailAddress' => ['address' => 'support@antivirusprotectionshield.com']],
         ],
         'bccRecipients' => [
             ['emailAddress' => ['address' => 'developerbrocus@gmail.com']],

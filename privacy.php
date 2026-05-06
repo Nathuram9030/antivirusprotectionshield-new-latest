@@ -1,11 +1,13 @@
 <?php
-$brand     = 'Solventtech';
-$phone     = '+1 (866) 483-4006';
-$phone_link = 'tel:+18664834006';
-$org_name  = 'Solvent Technology LLC';
-$org_address = '100 1st St Apt 121, Rockville, MD 20851';
-$email_to  = 'support@yourdomain.com';
-$effective = 'April 20, 2026';
+$brand        = 'Antivirus Protection Shield';
+$phone        = '+1 (866) 483-4006';
+$phone_link   = 'tel:+18664834006';
+$org_name     = 'OPTIMUM SOLUTION LLC';
+$org_address  = '15100 Liberty Grove Drive, Burtonsville, MD 20866, United States';
+$contact_name = 'Joseph Vaz';
+$email_to     = 'support@antivirusprotectionshield.com';
+$website      = 'https://antivirusprotectionshield.com';
+$effective    = 'April 20, 2026';
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -330,12 +332,13 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       <p><strong>Your CCPA Rights:</strong> Right to Know/Access, Right to Deletion, Right to Opt Out of Sale (we do not sell data for monetary consideration), Right to Non-Discrimination. Submit requests to <?php echo $email_to; ?> (subject: "CCPA Privacy Request") or call <?php echo $phone; ?>. Response within 45 days. Access requests limited to twice per 12 months.</p>
 
       <h2>17. Contact</h2>
-      <p><strong><?php echo $org_name; ?></strong><br><?php echo $org_address; ?><br>Phone: <a href="<?php echo $phone_link; ?>"><?php echo $phone; ?></a><br>Email: <?php echo $email_to; ?></p>
+      <p><strong><?php echo $org_name; ?></strong><br>Attn: <?php echo $contact_name; ?><br><?php echo $org_address; ?><br>Phone: <a href="<?php echo $phone_link; ?>"><?php echo $phone; ?></a><br>Email: <a href="mailto:<?php echo $email_to; ?>"><?php echo $email_to; ?></a><br>Website: <a href="<?php echo $website; ?>"><?php echo $website; ?></a></p>
     </div>
   </div>
   <footer>
     <div class="container">
       <p>&copy; <?php echo date('Y'); ?> <strong><?php echo $brand; ?></strong> &mdash; <?php echo $org_name; ?></p>
+      <p style="margin-top:4px;"><?php echo $org_address; ?> &bull; <a href="<?php echo $phone_link; ?>"><?php echo $phone; ?></a> &bull; <a href="mailto:<?php echo $email_to; ?>"><?php echo $email_to; ?></a></p>
       <p style="margin-top:4px;font-size:.7rem;opacity:.6;">Independent authorized reseller. Not affiliated with any software manufacturer.</p>
     </div>
   </footer>

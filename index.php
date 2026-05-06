@@ -1,10 +1,13 @@
 <?php
 /* ─── SITE CONFIG ────────────────────────────────────────── */
-$brand       = 'SolventTech';
-$phone       = '+1 (866) 483 4006';
-$phone_link  = 'tel:+18664834006';
-$org_name    = 'Solvent Technology LLC';
-$org_address = '100 1st St Apt 121, Rockville, MD 20851';
+$brand        = 'Antivirus Protection Shield';
+$phone        = '+1 (866) 483-4006';
+$phone_link   = 'tel:+18664834006';
+$org_name     = 'OPTIMUM SOLUTION LLC';
+$org_address  = '15100 Liberty Grove Drive, Burtonsville, MD 20866, United States';
+$contact_name = 'Joseph Vaz';
+$email        = 'support@antivirusprotectionshield.com';
+$website      = 'https://antivirusprotectionshield.com';
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -769,7 +772,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
       <!-- Brand -->
       <a href="#" class="nav-brand" aria-label="<?= $brand ?> Home">
-        Solvent<span>Tech</span>
+        Antivirus<span>Protection Shield</span>
       </a>
 
       <!-- Desktop nav links -->
@@ -835,8 +838,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <section>
     <div class="container">
       <img
-        src="https://solventtech.com/buy-antivirus-software.jpg"
-        alt="SolventTech Antivirus Software Subscription & Installation"
+        src="/buy-antivirus-software.jpg"
+        alt="Antivirus Protection Shield — Buy Antivirus Software"
         style="width:100%;border-radius:var(--r);box-shadow:var(--sh);display:block;aspect-ratio:16/9;object-fit:cover;"
         loading="lazy">
     </div>
@@ -923,7 +926,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <div class="container">
       <h2 class="stitle">About Us</h2>
       <div class="about-box">
-        <p><strong><?= $org_name ?></strong> is a U.S.-registered authorized reseller of leading antivirus and security software products, located in Rockville, Maryland.</p>
+        <p><strong><?= $org_name ?></strong> is a U.S.-registered authorized reseller of leading antivirus and security software products, located in Burtonsville, Maryland.</p>
         <p>We are an <strong>independent reseller</strong> — not affiliated with, endorsed by, or representing any software manufacturer or OEM unless explicitly stated. Brand names and trademarks belong to their respective owners and are used solely for product identification.</p>
         <p>Every purchase includes guided remote installation so you can start using your software immediately. We believe in transparent pricing and honest service.</p>
       </div>
@@ -1079,17 +1082,17 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <div class="container">
       <strong>Disclaimer &amp; Legal Transparency:</strong> <?= $org_name ?> (<?= $org_address ?>) is an independent authorized reseller of select antivirus software products. We are <strong>not</strong> affiliated with, endorsed by, or acting on behalf of any software manufacturer, technology brand, or OEM unless explicitly stated. Brand names, logos, and trademarks mentioned belong to their respective owners and are used solely for product identification. All software products are sold as-is per their respective manufacturer's terms. Remote installation is provided as part of the purchase to assist with product setup only. Prices and availability are subject to change. Software purchases are non-refundable once activated per manufacturer licensing terms.
       <br><br>
-      <strong>Opt-Out:</strong> To stop receiving communications, call <?= $phone ?> or email <?= $org_name ?>.
+      <strong>Opt-Out:</strong> To stop receiving communications, call <?= $phone ?> or email <a href="mailto:<?= $email ?>"><?= $email ?></a>.
       <br><br>
-      <strong>Contact:</strong> <?= $org_name ?> &mdash; <?= $org_address ?> &mdash; <?= $phone ?>
+      <strong>Contact:</strong> <?= $contact_name ?> &mdash; <?= $org_name ?> &mdash; <?= $org_address ?> &mdash; <?= $phone ?> &mdash; <a href="mailto:<?= $email ?>"><?= $email ?></a>
     </div>
   </div>
 
   <!-- ── FOOTER ─────────────────────────────────────────────── -->
   <footer>
     <div class="container">
-      <p>&copy; <?= date('Y') ?> <strong><?= $brand ?></strong> &mdash; A service of <?= $org_name ?></p>
-      <p style="margin-top:4px;"><?= $org_address ?> &bull; <a href="<?= $phone_link ?>"><?= $phone ?></a></p>
+      <p>&copy; <?= date('Y') ?> <strong><?= $brand ?></strong> &mdash; <?= $org_name ?></p>
+      <p style="margin-top:4px;"><?= $org_address ?> &bull; <a href="<?= $phone_link ?>"><?= $phone ?></a> &bull; <a href="mailto:<?= $email ?>"><?= $email ?></a></p>
       <p style="margin-top:8px;">
         <a href="privacy.php">Privacy Policy</a> &bull;
         <a href="terms.php">Terms of Service</a>
