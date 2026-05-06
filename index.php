@@ -761,10 +761,6 @@ $website      = 'https://antivirusprotectionshield.com';
 <body>
     
     
-    <!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-P7LV3KDN"
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<!-- End Google Tag Manager (noscript) -->
 
   <!-- ── NAVBAR ─────────────────────────────────────────────── -->
   <nav class="site-nav" id="site-nav" role="navigation" aria-label="Main navigation">
