@@ -1,7 +1,7 @@
 <?php
 $brand        = 'Antivirus Protection Shield';
-$phone        = '+1 (866) 483-4006';
-$phone_link   = 'tel:+18664834006';
+$phone        = '+1 (888) 958-4443';
+$phone_link   = 'tel:+18889584443';
 $org_name     = 'OPTIMUM SOLUTION LLC';
 $org_address  = '15100 Liberty Grove Drive, Burtonsville, MD 20866, United States';
 $contact_name = 'Joseph Vaz';
